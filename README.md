@@ -68,7 +68,7 @@ The governed AI Infrastructure underneath (network, model catalog, cost controls
 
 | Rule                    | What it means                                                                                      |
 |-------------------------|----------------------------------------------------------------------------------------------------|
-| Identity                | One non-human identity per AI agent role, set up in the landing zone.                              |
+| Identity                | One non-human identity per AI agent role, set up by the dev team.                              |
 | No stored secrets       | Short-lived credentials only; details are defined by the security department.                      |
 | No production access    | No AI agent can merge, release or write to production.                                             |
 | Logging                 | Every action and behavior is logged under the AI agent's identity, which also provides provenance. |
