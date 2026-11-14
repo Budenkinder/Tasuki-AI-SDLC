@@ -15,7 +15,7 @@ Author: Resul Kocyigit · Current version: [PDF](Tasuki-AI-SDLC.pdf) · Last upd
 The main outcome of this document has two parts:
 
 1. **The AI-augmented SDLC process.** Ten phases from Discover to Learn. Humans hold four decision gates (Specify, Design, Review, Release), and AI agents plan, build, verify and triage. Every phase passes only on evidence, supported by adversarial review, a circuit breaker and full traceability. See [The workflow end to end](#the-workflow-end-to-end) and [Phase detail](#phase-detail-human-vs-agent).
-2. **Tasuki (襷), the agile way of working for the AI SDLC.** Kanban-style flow, milestones of about four weeks as the planning unit, and a fixed cadence: refinement and planning 2–3× per week, a daily, a demo every two weeks, a weekly AI retro and a human retro every two weeks. Roles include the Kantoku (coach) and the AI Enablement / platform role. See [Tasuki](#tasuki-the-agile-way-of-working-for-the-ai-sdlc).
+2. **Tasuki (襷), the agile way of working for the AI SDLC.** Kanban-style flow and milestones of about four weeks as the planning unit. Roles include the Kantoku (coach) and the AI Enablement / platform role. See [Tasuki](#tasuki-the-agile-way-of-working-for-the-ai-sdlc).
 
 ## How this document was created
 
