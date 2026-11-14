@@ -10,8 +10,13 @@ Author: Resul Kocyigit · Current version: [PDF](Tasuki-AI-SDLC.pdf) · Last upd
 > [!IMPORTANT]
 > **Core assumption: a human stays in the loop.** AI agents can propose, build, test and review, but they cannot be held accountable for failures and incidents. Accountability for decisions, merges and releases therefore always stays with a named person (human).
 
+## How this document was created
+
+This document is based on my own research and my experience in software engineering and agile roles. I wrote the first version myself and then had Claude (Anthropic) and ChatGPT (OpenAI) challenge it. I decided on every proposal and change; Claude added the agreed text to the document. The overall idea, the criteria and the metrics come from my own research.
+
 ## Contents
 
+- [How this document was created](#how-this-document-was-created)
 - [Purpose & principles](#purpose--principles)
 - [AI agent sandboxes and identities](#ai-agent-sandboxes-and-identities)
 - [The workflow end to end](#the-workflow-end-to-end)
