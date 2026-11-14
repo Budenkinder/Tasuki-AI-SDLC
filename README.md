@@ -12,7 +12,7 @@ Author: Resul Kocyigit · Current version: [PDF](Tasuki-AI-SDLC.pdf) · Last upd
 
 ## How this document was created
 
-This document is based on my own research and my experience in software engineering and agile roles. I wrote the first version myself and then had Claude (Anthropic) and ChatGPT (OpenAI) challenge it. I decided on every proposal and change; Claude added the agreed text to the document. The overall idea, the criteria and the metrics come from my own research.
+This document is based on my own research and my experience in software engineering and agile roles. I wrote the first version myself and then had Claude (Anthropic) and ChatGPT (OpenAI) challenge it. I decided on every proposal and change; Claude added the agreed text to the document. The overall idea, the selection of criteria and metrics and how they fit together come from my own research; established concepts such as the DORA metrics are named as such.
 
 ## Contents
 
@@ -28,6 +28,7 @@ This document is based on my own research and my experience in software engineer
 - [Metrics](#metrics)
 - [Glossary](#glossary)
 - [Create a PDF](#create-a-pdf)
+- [License](#license)
 
 ## Purpose & principles
 
@@ -111,7 +112,7 @@ Verification runs in three layers (see below), cheapest (time & costs) first. A 
 
 1.  **Deterministic checks** (CI pipeline, no AI) — build, unit/integration tests, type checks, linters, security scannings, dependency/license scan and other checks. No agent is involved here, because on each run it can answer differently.
 
-2.  **Critical AI agent review (adversarial review)** — the pattern used on Claude Code's own PRs:
+2.  **Critical AI agent review (adversarial review)**:
 
     1.  *Find:* start the review with one independent AI finder agent. Scale to 3–5 AI finder agents reading the diff in parallel only if measured data shows they catch more real bugs than they add in latency, cost and noise, each with one angle (correctness vs spec, security, performance, edge cases, maintainability).
 
@@ -332,3 +333,7 @@ The PDF in this repository is generated from this README. To create a new versio
 ```
 
 Requirements: [pandoc](https://pandoc.org) and Google Chrome or Chromium (used headless to print the HTML to PDF). The layout is defined in `scripts/pdf.css` (A4, page numbers, tables that do not split rows across pages).
+
+## License
+
+This document is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You may share and adapt it, as long as you give appropriate credit to the author, Resul Kocyigit, link to the license and indicate if changes were made.

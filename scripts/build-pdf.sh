@@ -8,7 +8,7 @@ TMP="$(mktemp -d)"
 trap 'rm -rf "$TMP"' EXIT
 
 # The PDF does not need the "Create a PDF" section or the link to itself.
-sed -e '/^## Create a PDF/,$d' \
+sed -e '/^## Create a PDF/,/^## License/{/^## License/!d}' \
     -e '/^- \[Create a PDF\]/d' \
     -e 's/ · Current version: \[PDF\]([^)]*)//' README.md > "$TMP/doc.md"
 
