@@ -1,8 +1,10 @@
 # Tasuki – AI SDLC
 
+<p align="center"><img src="docs/images/tasuki-cover.png" alt="Tasuki cover: a runner's garment with the tasuki sash tied across the back" width="420"></p>
+
 **AI-Augmented SDLC & Agile Operating Model**
 
-Author: Resul Kocyigit · Current version: [PDF](Tasuki-AI-SDLC.pdf) · Last updated: 2026-11-14
+Author: Resul Kocyigit · Current version: [PDF](Tasuki-AI-SDLC.pdf) · Last updated: 2026-11-15
 
 > [!NOTE]
 > **This is a living document.** AI is changing every area of work, and software delivery is no exception. Models, tools and practices move fast, so this operating model will keep changing as we learn. All thresholds and durations are starting hypotheses until they are validated with measured data. Changes are proposed and reviewed through pull requests.

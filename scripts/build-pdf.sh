@@ -8,12 +8,16 @@ TMP="$(mktemp -d)"
 trap 'rm -rf "$TMP"' EXIT
 
 # The PDF does not need the "Create a PDF" section or the link to itself.
+# The cover page (scripts/cover.html) replaces the README title block.
 sed -e '/^## Create a PDF/,/^## License/{/^## License/!d}' \
     -e '/^- \[Create a PDF\]/d' \
-    -e 's/ · Current version: \[PDF\]([^)]*)//' README.md > "$TMP/doc.md"
+    -e '1,/^Author: /d' README.md > "$TMP/doc.md"
+
+DATE="$(sed -n 's/^Author: .*Last updated: \([0-9-]*\).*/\1/p' README.md)"
+sed "s/__DATE__/${DATE:-$(date +%F)}/" scripts/cover.html > "$TMP/cover.html"
 
 pandoc "$TMP/doc.md" -f gfm -t html5 --standalone \
-  --lua-filter scripts/alerts.lua \
+  --lua-filter scripts/alerts.lua --include-before-body "$TMP/cover.html" \
   --metadata title="Tasuki – AI SDLC" --metadata pagetitle="Tasuki – AI SDLC" \
   --variable title="" \
   --css "$PWD/scripts/pdf.css" --embed-resources --resource-path=. \

@@ -19,3 +19,8 @@ pre { background: #f5f6fa; padding: 6pt; border-radius: 3pt; }
 .alert { border-left: 4px solid #0050c8; background: #eef4fd; padding: 6pt 10pt; margin: 8pt 0; break-inside: avoid; }
 .alert-important { border-left-color: #8250df; background: #f4effd; }
 .alert p { margin: 3pt 0; }
+.cover { height: 250mm; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; break-after: page; }
+.cover img { width: 115mm; margin: 0 auto 10mm; }
+.cover-title { font-size: 30pt; margin: 0 0 4pt; }
+.cover-subtitle { font-size: 14pt; color: #444; margin: 0 0 14pt; }
+.cover-meta { font-size: 10pt; color: #777; }
