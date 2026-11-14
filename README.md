@@ -2,7 +2,7 @@
 
 <p align="center"><img src="docs/images/tasuki-cover.png" alt="Tasuki cover: a runner's garment with the tasuki sash tied across the back" width="420"></p>
 
-**AI-Augmented SDLC & Agile Operating Model**
+## Tasuki and the AI-Augmented SDLC for a new Agile Operating Model
 
 Author: Resul Kocyigit · Current version: [PDF](Tasuki-AI-SDLC.pdf) · Last updated: 2026-11-15
 
@@ -12,12 +12,12 @@ Author: Resul Kocyigit · Current version: [PDF](Tasuki-AI-SDLC.pdf) · Last upd
 > [!IMPORTANT]
 > **Core assumption: a human stays in the loop.** AI agents can propose, build, test and review, but they cannot be held accountable for failures and incidents. Accountability for decisions, merges and releases therefore always stays with a named person (human).
 
-## Main outcome
+The main outcome of the document are processual & role and responsiblity & accountability changes.
 
-The main outcome of this document has two parts:
+## Tasuki (襷), the agile way of working for the AI SDLC.
+Kanban-style flow and milestones of about four weeks as the planning unit. Roles include the Kantoku (coach) and the AI Enablement / platform role. See [Tasuki](#tasuki-the-agile-way-of-working-for-the-ai-sdlc).
 
-1. **The AI-augmented SDLC process.** Ten phases from Discover to Learn. Humans hold four decision gates (Specify, Design, Review, Release), and AI agents plan, build, verify and triage. Every phase passes only on evidence, supported by adversarial review, a circuit breaker and full traceability. See [The workflow end to end](#the-workflow-end-to-end) and [Phase detail](#phase-detail-human-vs-agent).
-2. **Tasuki (襷), the agile way of working for the AI SDLC.** Kanban-style flow and milestones of about four weeks as the planning unit. Roles include the Kantoku (coach) and the AI Enablement / platform role. See [Tasuki](#tasuki-the-agile-way-of-working-for-the-ai-sdlc).
+**The AI-augmented SDLC process.** Ten phases from Discover to Learn. Humans hold four decision gates (Specify, Design, Review, Release), and AI agents plan, build, verify and triage. Every phase passes only on evidence, supported by adversarial review, a circuit breaker and full traceability. See [The workflow end to end](#the-workflow-end-to-end) and [Phase detail](#phase-detail-human-vs-agent).
 
 ## How this document was created
 
