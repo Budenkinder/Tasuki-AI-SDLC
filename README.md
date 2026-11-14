@@ -203,7 +203,7 @@ Working name: **Tasuki** (襷). In an ekiden, the Japanese relay race, runners p
 
 - **New AI Enablement / platform role (human)** owns the AI SDLC as a platform and makes sure the whole system works end to end, similar to SRE or platform engineering: shared skills, AI agent configs, review pipelines, model access and evaluation, cost controls, and the health signals across teams (pipelines up, AI review hit rate, circuit breaker trends).
 
-- **Kantoku (Scrum Master / Agile Coach) (human)** shifts from running ceremonies to keeping work flowing: tracks flow metrics (throughput, cycle time) instead of velocity, watches the review queue so AI agent PRs don't pile up (WIP limits per reviewer), and coaches the team in working with AI agents. Like the kantoku (監督), the coach in an ekiden relay race, this role follows the whole race and its pace from behind and steps in at defined points, without running itself.
+- **Kantoku replacing Scrum Master (human)** shifts from running ceremonies to keeping work flowing: tracks flow metrics (throughput, cycle time) instead of velocity, watches the review queue so AI agent PRs don't pile up (WIP limits per reviewer), and coaches the team in working with AI agents. Like the kantoku (監督), the coach in an ekiden relay race, this role follows the whole race and its pace from behind and steps in at defined points, without running itself.
 
 **Who decides what (RACI, compact)**
 
