@@ -7,7 +7,7 @@
 Author: Resul Kocyigit · Current version: [PDF](Tasuki-AI-SDLC.pdf) · Last updated: 2026-11-15
 
 > [!NOTE]
-> **This is a living document.** AI is changing every area of work, and software delivery is no exception. Models, tools and practices move fast, so this operating model will keep changing as we learn. All thresholds and durations are starting hypotheses until they are validated with measured data. Changes are proposed and reviewed through pull requests.
+> **This is a living document.** AI is changing every area of work, and specially the software delivery. Models, tools and practices move fast, so this operating model will keep changing as we learn. All thresholds and durations are starting hypotheses until they are validated with measured data. Changes are proposed and reviewed through pull requests.
 
 > [!IMPORTANT]
 > **Core assumption: a human stays in the loop.** AI agents can propose, build, test and review, but they cannot be held accountable for failures and incidents. Accountability for decisions, merges and releases therefore always stays with a named person (human).
